@@ -99,3 +99,7 @@ Enough talk, here are some pictures.
 ### Mobile
 
 ![Scrawl home page example](https://dl.dropboxusercontent.com/s/9i3eo9pl5taq5tu/scrawlPhoneIndex.png?dl=0)
+
+### Alerts and Notes
+
+![Scrawl Alerts and Notes examples](https://github.com/pubmania/scrawl/blob/pubmania-patch-1-alerts-notes/Alert_and_Notes.PNG?raw=true)
