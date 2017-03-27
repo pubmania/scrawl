@@ -2,3 +2,20 @@
 <a href="{{@blog.url}}" class="blog-title-background">
   <h1>{{@blog.title}}</h1>
 </a>
+
+<!-- for ghosthunter search -->
+<div style="float:right">
+<form style="text-align:center">
+        <input id="search-field"type="text" name="query" style="margin:0.2em;border-color:#F2C20F; border:1px solid #F2C20F;" />
+        <input type="submit" value="Search" style="background-color:#F2C20F; color:white; border:#F2C20F;margin:0.2em"/>
+</form>
+</div>
+<section id="results" style="text-align:center"></section>
+<script src="{{asset "js/jquery.ghostHunter.min.js"}}"></script>
+    <script>
+        $("#search-field").ghostHunter({
+            results   : "#results",
+            onKeyUp : true
+        });
+    </script>
+<!-- for ghosthunter search -->
