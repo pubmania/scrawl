@@ -45,6 +45,119 @@ h3 {
   padding: 0;
   border: 0; }
 
+/** Following style adds ability to add notes and alerts with simple backticks
+### Example for General Alert
+```alert
+GENERAL ALERT: Example for General Alert. Example for General Alert. Example for General Alert. Example for General Alert. Example for General Alert. Example for General Alert
+```
+
+### Example for Success Alert
+```alert_green
+SUCCESS ALERT: Example for Success Alert
+```
+
+### Example for Danger Alert
+```alert_red
+DANGER ALERT: Example for Danger Alert
+```
+
+### Example for Information Note
+```note
+INFO NOTE: Example for Information Note
+```
+### Example for Success Note
+```note_green
+SUCCESS NOTE: Example for Success Note
+```
+
+### Example for Caution Note
+```note_red
+CAUTION NOTE: Example for Caution Note
+```
+
+### Example for TIP Box
+```boxed
+TIP: Example for TIP Box
+```
+**//
+
+/**
+  Style for Alert Boxes
+**/
+
+.language-boxed {
+  font-size: 0.8em;
+  font-style: italic;
+  color: white;
+  text-align: justify;
+  border: 1px #505C7A;
+  background-color: #505C7A !important;
+}
+  
+.language-alert {
+        padding:20px 30px;
+        margin-bottom:20px;
+        text-shadow:0 1px 0 rgba(255,255,255,0.3);
+        background-color:#72aaf9 !important;
+        position:relative;
+        overflow-wrap: break-word !important;
+        word-wrap: break-word !important;
+        white-space: pre-wrap !important;
+        color:#484019 !important;
+        -webkit-border-radius:1px;
+        -moz-border-radius:1px;border-radius:1px;
+}
+
+.language-alert_green {
+        background-color:#a9c965 !important;
+        overflow-wrap: break-word !important;
+        word-wrap: break-word !important;
+        white-space: pre-wrap !important;
+        color:#445028 !important;
+}
+
+
+.language-alert_red {
+        background-color:#e25440 !important;
+        overflow-wrap: break-word !important;
+        word-wrap: break-word !important;
+        white-space: pre-wrap !important;
+        color:#fff !important;
+}
+/**
+  Style for Notes
+**/
+
+
+.language-note_red {
+        background-color:#ffdddd !important;
+        border-left: 6px solid #f44336;
+        overflow-wrap: break-word !important;
+        word-wrap: break-word !important;
+        white-space: pre-wrap !important;
+        color:#000 !important;
+}
+
+.language-note_green {
+        background-color:#ddffdd !important;
+        border-left: 6px solid #4CAF50;
+        overflow-wrap: break-word !important;
+        word-wrap: break-word !important;
+        white-space: pre-wrap !important;
+        color:#000 !important;
+}
+
+.language-note {
+        background-color:#c8e2f9 !important;
+        border-left: 6px solid #2196F3;
+        overflow-wrap: break-word !important;
+        word-wrap: break-word !important;
+        white-space: pre-wrap !important;
+        color:#000 !important;
+}
+
+
+
 /**
   MIXINS
 **/
