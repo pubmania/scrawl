@@ -7,7 +7,9 @@ Features include:
 * Fully responsive, mobile first design
 * Automatic estimated reading times for each post
 * Easily configurable social links, without messing around with the server
-* For dev blogs: includes [Prism](http://prismjs.com/) to style your code snippets   
+* For dev blogs: includes [Prism](http://prismjs.com/) to style your code snippets
+* Inbuilt search for the blog
+* [Alert and notification through backtick code block](#user-content-alerts-and-notes)
 
 
 [See the screenshots below.](#scrawl-in-action)
@@ -103,3 +105,7 @@ Enough talk, here are some pictures.
 ### Alerts and Notes
 
 ![Scrawl Alerts and Notes examples](https://github.com/pubmania/scrawl/blob/pubmania-patch-1-alerts-notes/Alert_and_Notes.PNG?raw=true)
+
+Theme has inbuilt CSS which allows to have alert and note boxes as shown in above screenshot using the simple backtick wraparound. For example above boxes were created using the following markdown:
+
+![Scrawl Alerts and Notes markdown usage examples](https://github.com/pubmania/scrawl/blob/master/AlertNoteExample.PNG?raw=true)
