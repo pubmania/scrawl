@@ -8,7 +8,7 @@ Features include:
 * Automatic estimated reading times for each post
 * Easily configurable social links, without messing around with the server
 * For dev blogs: includes [Prism](http://prismjs.com/) to style your code snippets
-* Inbuilt search for the blog
+* [Inbuilt search for the blog](#user-content-inbuilt-search-for-blog)
 * [Alert and notification through backtick code block](#user-content-alerts-and-notes)
 
 
