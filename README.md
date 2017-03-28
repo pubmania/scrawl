@@ -65,6 +65,10 @@ vine: `<script>window.__themeCfg.vineUsername = '...';</script>`
 
 youtube: `<script>window.__themeCfg.youtubeUsername = '...';</script>`
 
+linkedin: `<script>window.__themeCfg.linkedinUsername = '...';</script>`
+
+googleplus: `<script>window.__themeCfg.gplusUsername = '...';</script>`
+
 ### Disqus
 
 Scrawl comes with the [Disqus](https://www.disquss.com) commenting platform so that you can easily manage interactions with your readers.
