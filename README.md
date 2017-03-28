@@ -102,6 +102,13 @@ Enough talk, here are some pictures.
 
 ![Scrawl home page example](https://dl.dropboxusercontent.com/s/9i3eo9pl5taq5tu/scrawlPhoneIndex.png?dl=0)
 
+### Inbuilt Search for blog
+![Scrawl inbuilt search](https://github.com/pubmania/scrawl/blob/master/ScrawlSearch.PNG?raw=true)
+
+The above search box will be enabled by default on the theme but for it to work, on the Ghost admin go to "Labs" under Setting on left hand side navigation and then scroll down to  "Enable Beta Features". Here make sure Public API is enabled like so:
+
+![EnablePublicAPI](https://github.com/pubmania/scrawl/blob/master/EnableSearch.PNG?raw=true)
+
 ### Alerts and Notes
 
 ![Scrawl Alerts and Notes examples](https://github.com/pubmania/scrawl/blob/pubmania-patch-1-alerts-notes/Alert_and_Notes.PNG?raw=true)
