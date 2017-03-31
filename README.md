@@ -115,7 +115,7 @@ The above search box will be enabled by default on the theme but for it to work,
 
 ### Alerts and Notes
 
-![Scrawl Alerts and Notes examples](https://github.com/pubmania/scrawl/blob/pubmania-patch-1-alerts-notes/Alert_and_Notes.PNG?raw=true)
+![Scrawl Alerts and Notes examples](https://raw.githubusercontent.com/pubmania/scrawl/master/Alert_and_Notes.PNG)
 
 Theme has inbuilt CSS which allows to have alert and note boxes as shown in above screenshot using the simple backtick wraparound. For example above boxes were created using the following markdown:
 
