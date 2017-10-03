@@ -1,7 +1,11 @@
 {
   "name":"scrawl",
   "version":"1.0.3",
-  "author":"Kate Preston <ktweeden@gmail.com>",
+  "author": {
+    "name": "Kate Preston",
+    "email": "ktweeden@gmail.com",
+    "url": "https://github.com/ktweeden/scrawl"
+},
   "contributors": [],
   "repository":{
     "type": "git",
