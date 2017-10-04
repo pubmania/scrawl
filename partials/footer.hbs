@@ -1,7 +1,4 @@
 <footer>
-  <div class="theme-info">
-    theme by <a href="https://github.com/ktweeden">Kate Preston</a>
-  </div>
   <div class="footer-container">
     <a href="{{@blog.url/rss}}" class="social-button"><i class="icon-rss"></i></a>
     <a class="social-button twitter hidden"><i class="icon-twitter"></i></a>
@@ -14,10 +11,14 @@
     <a class="social-button codepen hidden"><i class="icon-codepen"></i></a>
     <a class="social-button youtube hidden"><i class="icon-youtube"></i></a>
     <a class="social-button vine hidden"><i class="icon-vine"></i></a>
+    <!-- Added lines to include LinkedIn and Google+ -->
     <a class="social-button linkedin hidden"><i class="icon-linkedin"></i></a>
     <a class="social-button gplus hidden"><i class="icon-gplus"></i></a>
   </div>
-
+  <div class="theme-info">
+  Theme by <a href="https://github.com/ktweeden">Kate Preston</a>
+  Modified by <a href="https://github.com/pubmania">Ankit Mittal</a>
+  </div>
   <script>
     // creates url to a given profile on a given platform
     function formSocialUrl(platform, username) {
@@ -42,9 +43,9 @@
           return "https://www.youtube.com/user/" + username;
         case "Vine":
           return "https://www.vine.co/" + username;
-        case "Linkedin":  
+        case "Linkedin":
           return "https://uk.linkedin.com/in/" + username;
-        case "Gplus":  
+        case "Gplus":
           return "https://plus.google.com/" + username;
       }
     }
@@ -76,9 +77,7 @@
     $(revealSocialLinks);
 
   </script>
-
-
-
-  <script type="text/javascript" src="{{asset 'js/readingtime.js'}}"></script>
   <script type="text/javascript" src="{{asset 'js/prism.js'}}"></script>
+  <script type="text/javascript" src="{{asset "js/prism-custom-line-numbers.js"}}"></script>
+  <script type="text/javascript" src="{{asset 'js/readingtime.js'}}"></script>
 </footer>

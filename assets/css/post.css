@@ -45,45 +45,22 @@ h3 {
   padding: 0;
   border: 0; }
 
-/** Following style adds ability to add notes and alerts with simple backticks
-### Example for General Alert
-```alert
-GENERAL ALERT: Example for General Alert. Example for General Alert. Example for General Alert. Example for General Alert. Example for General Alert. Example for General Alert
-```
-
-### Example for Success Alert
-```alert_green
-SUCCESS ALERT: Example for Success Alert
-```
-
-### Example for Danger Alert
-```alert_red
-DANGER ALERT: Example for Danger Alert
-```
-
-### Example for Information Note
-```note
-INFO NOTE: Example for Information Note
-```
-### Example for Success Note
-```note_green
-SUCCESS NOTE: Example for Success Note
-```
-
-### Example for Caution Note
-```note_red
-CAUTION NOTE: Example for Caution Note
-```
-
-### Example for TIP Box
-```boxed
-TIP: Example for TIP Box
-```
-**//
-
 /**
-  Style for Alert Boxes
+  Style for Alert Boxes 
 **/
+
+.boxed {
+  font-size: 0.8em;
+  font-style: italic;
+  color: white;
+  text-align: justify;
+  border: 1px #505C7A;
+  background-color: #505C7A;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
 
 .language-boxed {
   font-size: 0.8em;
@@ -92,70 +69,74 @@ TIP: Example for TIP Box
   text-align: justify;
   border: 1px #505C7A;
   background-color: #505C7A !important;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
 }
-  
+
 .language-alert {
         padding:20px 30px;
         margin-bottom:20px;
         text-shadow:0 1px 0 rgba(255,255,255,0.3);
         background-color:#72aaf9 !important;
         position:relative;
-        overflow-wrap: break-word !important;
-        word-wrap: break-word !important;
-        white-space: pre-wrap !important;
-        color:#fff !important;
+	overflow-wrap: break-word !important;
+	word-wrap: break-word !important;
+	white-space: pre-wrap !important;
+        color:#ffffff !important;
         -webkit-border-radius:1px;
         -moz-border-radius:1px;border-radius:1px;
 }
 
 .language-alert_green {
-        background-color:#a9c965 !important;
-        overflow-wrap: break-word !important;
-        word-wrap: break-word !important;
-        white-space: pre-wrap !important;
-        color:#fff !important;
+	background-color:#a9c965 !important;
+	overflow-wrap: break-word !important;
+	word-wrap: break-word !important;
+	white-space: pre-wrap !important;
+	color:#ffffff !important;
 }
 
 
 .language-alert_red {
-        background-color:#e25440 !important;
-        overflow-wrap: break-word !important;
-        word-wrap: break-word !important;
-        white-space: pre-wrap !important;
-        color:#fff !important;
+	background-color:#e25440 !important;
+	overflow-wrap: break-word !important;
+	word-wrap: break-word !important;
+	white-space: pre-wrap !important;
+	color:#ffffff !important;
 }
+
 /**
   Style for Notes
 **/
 
 
 .language-note_red {
-        background-color:#ffdddd !important;
-        border-left: 6px solid #f44336;
-        overflow-wrap: break-word !important;
-        word-wrap: break-word !important;
-        white-space: pre-wrap !important;
-        color:#f44336 !important;
+	background-color:#ffdddd !important;
+	border-left: 6px solid #f44336;
+	overflow-wrap: break-word !important;
+	word-wrap: break-word !important;
+	white-space: pre-wrap !important;
+	color:#f44336 !important;
 }
 
 .language-note_green {
-        background-color:#ddffdd !important;
-        border-left: 6px solid #4CAF50;
-        overflow-wrap: break-word !important;
-        word-wrap: break-word !important;
-        white-space: pre-wrap !important;
-        color:#4CAF50 !important;
+	background-color:#ddffdd !important;
+	border-left: 6px solid #4CAF50;
+	overflow-wrap: break-word !important;
+	word-wrap: break-word !important;
+	white-space: pre-wrap !important;
+	color:#4CAF50 !important;
 }
 
 .language-note {
-        background-color:#c8e2f9 !important;
-        border-left: 6px solid #2196F3;
-        overflow-wrap: break-word !important;
-        word-wrap: break-word !important;
-        white-space: pre-wrap !important;
-        color:#2196F3 !important;
+	background-color:#c8e2f9 !important;
+	border-left: 6px solid #2196F3;
+	overflow-wrap: break-word !important;
+	word-wrap: break-word !important;
+	white-space: pre-wrap !important;
+	color:#2196F3 !important;
 }
-
 
 
 /**
@@ -183,7 +164,7 @@ TIP: Example for TIP Box
         transition: 0.2s; } }
 
 .blog-title-background {
-  background-color: #FFBF00;
+  background-color: #F2C20F;
   width: 100%; }
   .blog-title-background h1 {
     padding: 0.2em;
@@ -328,16 +309,16 @@ TIP: Example for TIP Box
     padding: 0.2em 0; }
   .content-wrapper a {
     text-decoration: underline;
-    border-bottom: 1px solid #FFBF00;
+    border-bottom: 1px solid #B710EF;
     text-decoration: none;
-    color: #FFBF00; }
+    color: #B710EF; }
   .content-wrapper blockquote {
     margin: 1em 0;
     padding-left: 0.2em;
     border-left: 0.2em solid #FF4B3E; }
   .content-wrapper img {
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: auto;
     margin: 0.7em 0; }
   .content-wrapper ul li {
     list-style-type: circle; }
@@ -528,4 +509,5 @@ TIP: Example for TIP Box
     @media screen and (min-width: 551px) {
       .next-post-wrapper a {
         padding-top: 0.7em; } }
+
 /*# sourceMappingURL=post.css.map */
