@@ -1,4 +1,4 @@
-Prism.hooks.add('after-highlight', function (env) {  
+Prism.hooks.add('after-highlight', function (env) {
     // works only for <code> wrapped inside <pre data-line-numbers> (not inline)
     var pre = env.element.parentNode;
     if (!pre || !/pre/i.test(pre.nodeName)) {
@@ -8,15 +8,12 @@ Prism.hooks.add('after-highlight', function (env) {
     // MOD 23/3/2014: line-numbers class need to be added if not present
    if (pre.className.indexOf('alert') === -1){
     if (pre.className.indexOf('note') === -1){
-     if (pre.className.indexOf('boxed') === -1){ 
+     if (pre.className.indexOf('boxed') === -1){
       if (pre.className.indexOf('line-numbers') === -1) {
           pre.className = "line-numbers" + pre.className;
       }
-    
 
-    // MOD 23/3/2014: removed 1 increase to avoid unwanted last line number due to ending carriage return in code block
-    var linesNum = env.code.split('\n').length;
-
+    var linesNum = (env.code.split('\n').length);
     var lineNumbersWrapper;
 
     lines = new Array(linesNum);
