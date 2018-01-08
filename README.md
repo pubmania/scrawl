@@ -20,7 +20,12 @@ Features include:
 Get the .zip file for the latest version from original author [here](https://github.com/ktweeden/scrawl/archive/master.zip) or this modified version with search and other added enhancements [here](https://github.com/pubmania/scrawl/archive/master.zip)
 
 Ghost(Pro) users can upload this [.zip](https://github.com/ktweeden/scrawl/archive/master.zip) file via the Pro dashboard. See the [official guide](http://support.ghost.org/upload-theme-ghostpro/).
+
 Self-hosted Ghost users should upload the [.zip](https://github.com/ktweeden/scrawl/archive/master.zip) file to Ghost's `content/themes/` directory and extract it with `unzip -o scrawl-master.zip`
+
+**or alternatively**
+
+Self-hosted Ghost users can upload the theme by uploading the zip file from front end admin: Settings -> Design and click on "Upload Theme".
 
 
 ## Configuration
