@@ -1,18 +1,22 @@
 {
   "name":"scrawl",
-  "version":"1.0.4",
-   "engines": {
-        "ghost": ">=2.0.0"
-    },
+  "version":"1.0.5",
+  "engines": {
+    "ghost": ">=3.15.0",
+    "ghost-api": "v3"
+  },
   "author": {
-    "name": "kate-preston",
+    "name": "Kate Preston",
     "email": "ktweeden@gmail.com",
     "url": "https://github.com/ktweeden/scrawl"
-},
+  },
   "contributors": [],
   "repository":{
     "type": "git",
     "url": "https://github.com/pubmania/scrawl"
+  },
+  "config": {
+    "posts_per_page": 5
   },
   "keywords":[
     "blog",

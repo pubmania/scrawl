@@ -14,6 +14,10 @@ Features include:
 
 [See the screenshots below.](#scrawl-in-action)
 
+The theme is compatible with Ghost V3.x and checked against the comparison tool:
+
+![Scrawl 1.0.5 compatibility test result](images/2020/05/scrawl-1-0-5-compatibility-test-result.png)
+
 
 ## How to install
 
@@ -47,7 +51,6 @@ For example, if I wanted to add a link to my twitter profile to a blog using scr
 `<script>window.__themeCfg.twitterUsername = 'ktweeden';<script>`
 
 ---
-
 Copy and paste the relevant links to the blog header code injection box:
 
 bitbucket: `<script>window.__themeCfg.bitbucketUsername = '...';</script>`
@@ -114,9 +117,15 @@ Enough talk, here are some pictures.
 ### Inbuilt Search for blog
 ![Scrawl inbuilt search](https://github.com/pubmania/scrawl/blob/master/ScrawlSearch.PNG?raw=true)
 
-The above search box will be enabled by default on the theme but for it to work, on the Ghost admin go to "Labs" under Setting on left hand side navigation and then scroll down to  "Enable Beta Features". Here make sure Public API is enabled like so:
-
-![EnablePublicAPI](https://github.com/pubmania/scrawl/blob/master/EnableSearch.PNG?raw=true)
+The above search box will be enabled by default on the theme but for it to work, you will need to create a custom integration. You can do so by folling the steps below:
+- Open the `Integrations` screen in Ghost admin panel
+![Open Integrations Screen](images/2020/05/open-integrations-screen.png)
+- On the integrations screen, click on `Add Customer integration` and give the integration the name `ghosthunter`
+![creat ghosthunter integration](images/2020/05/creat-ghosthunter-integration.png)
+- Copy the Content API Key from the created integration.
+![copy content API key](images/2020/05/copy-content-api-key.png)
+- Now open the `Code Injection` screen and in `Site Header` section add the code as shown in screen blow and where use the content API Key from previous step and put it against the variable ghosthunter_key and then click on `Save`.
+![Update Code Injection](images/2020/05/update-code-injection.png)
 
 ### Alerts and Notes
 
